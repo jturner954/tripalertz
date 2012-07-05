@@ -1,4 +1,4 @@
-require 'tripalertz/...'
+require 'tripalertz/deal.rb'
 module TRIPALERTZ
   class << self
     attr_accessor :auth_login

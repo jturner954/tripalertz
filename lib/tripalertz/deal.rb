@@ -12,6 +12,11 @@ module TRIPALERTZ
       @open_timeout = TRIPALERTZ.open_timeout.to_i
     end
 
+    def GetCurrentDeals()
+      @response = RestClient::Request.execute(:method => :get, :url => [@url,'getCurrentDeals'].join, :headers => { :'X-Auth-Login' => '1', :'X-Auth-Key'=> '86f7e437faa5a7fce15d1ddcb9eaeaea377667b8'}, :timeout => @timeout, :open_timeout => @open_timeout)
+      puts @response
+    end
+
     private
 
 
