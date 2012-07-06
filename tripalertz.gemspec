@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "tripalertz"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jon Turner"]
-  s.date = "2012-07-05"
+  s.date = "2012-07-06"
   s.description = "help communication with tripalertz API"
   s.email = "jturner@saveology.com"
   s.extra_rdoc_files = [
@@ -27,7 +27,9 @@ Gem::Specification.new do |s|
     "config/development.example.yml",
     "lib/tripalertz.rb",
     "lib/tripalertz/deal.rb",
-    "spec/spec_helper.rb"
+    "spec/spec_helper.rb",
+    "spec/tripalertz_spec.rb",
+    "tripalertz.gemspec"
   ]
   s.homepage = "http://github.com/jturner954/tripalertz"
   s.licenses = ["MIT"]
