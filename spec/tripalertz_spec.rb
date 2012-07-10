@@ -50,7 +50,7 @@ describe 'Tripalertz' do
       let(:open_timeout) { valid_open_timeout }
 
       it 'should work' do
-        subject.GetCurrentDeals
+        subject.current
         subject.auth_login.should == valid_auth_login
         subject.auth_login.should == valid_auth_login
       end
