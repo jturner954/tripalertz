@@ -20,7 +20,7 @@ Jeweler::Tasks.new do |gem|
   gem.summary = %Q{tripalertz}
   gem.description = %Q{help communication with tripalertz API}
   gem.email = "jturner@saveology.com"
-  gem.authors = ["Jon Turner"]
+  gem.authors = ["Jon Turner", "Paul Kruger"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
